@@ -1,4 +1,4 @@
-package utilities.day08;
+package day08;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
