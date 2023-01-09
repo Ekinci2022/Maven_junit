@@ -50,6 +50,7 @@ public class C02_reusableMethod {
                 eachOption.click();
                 break;
 
+
             }
         }
     }
