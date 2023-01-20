@@ -26,7 +26,7 @@ public class C01_Actions01 extends TestBase {
         // tüm ACTIONS lar actions Objesiyle baslar ve perform() ile biter
         actions.contextClick(kutu).perform();
 //    Alert’te cikan yazinin “You selected a context menu” oldugunu test edin
-        Assert.assertEquals("You selected a context menu",driver.switchTo().alert().getText());
+         Assert.assertEquals("You selected a context menu",driver.switchTo().alert().getText());
 
         //2.yol obje olusturma
         // Object olusturmak wait gerektiren durumlarda makul
@@ -38,7 +38,7 @@ public class C01_Actions01 extends TestBase {
 
       //  Tamam diyerek alert’i kapatın
 
-        driver.switchTo().alert().accept();
+       driver.switchTo().alert().accept();
 
     }
 
