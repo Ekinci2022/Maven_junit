@@ -1,6 +1,7 @@
 package selenium_Ders.day15;
 
-import com.github.dockerjava.api.model.Task;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -8,8 +9,9 @@ import utilities.TestBase;
 
 import java.util.List;
 
-public class C02_WebTables extends TestBase {
 
+
+public class C02_WebTables extends TestBase {
 
 //    https://the-internet.herokuapp.com/tables
 //    Create a class: WebTables
@@ -24,6 +26,7 @@ public class C02_WebTables extends TestBase {
 //
 
 
+    private static Logger logger = LogManager.getLogger(C02_WebTables.class.getName());
     @Test
     public void table1Print() {
         driver.get("https://the-internet.herokuapp.com/tables");
